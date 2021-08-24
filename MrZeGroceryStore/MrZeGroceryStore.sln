@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31613.86
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrZeGroceryStore", "MrZeGroceryStore.csproj", "{DF73B595-D2CF-4FAB-89B6-B55DD48E9362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrZeGroceryStoreTestUnit", "..\MrZeGroceryStoreTestUnit\MrZeGroceryStoreTestUnit.csproj", "{D6E87A93-C1D0-4B5F-9E2C-7B8B9766922F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MrZeGroceryStoreTestUnit", "..\MrZeGroceryStoreTestUnit\MrZeGroceryStoreTestUnit.csproj", "{D6E87A93-C1D0-4B5F-9E2C-7B8B9766922F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrZeGroceryStoreCodedUITest", "..\MrZeGroceryStoreCodedUITest\MrZeGroceryStoreCodedUITest.csproj", "{0AE2695E-8D94-4D75-9C6E-C8950D8813B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D6E87A93-C1D0-4B5F-9E2C-7B8B9766922F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6E87A93-C1D0-4B5F-9E2C-7B8B9766922F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6E87A93-C1D0-4B5F-9E2C-7B8B9766922F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE2695E-8D94-4D75-9C6E-C8950D8813B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE2695E-8D94-4D75-9C6E-C8950D8813B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE2695E-8D94-4D75-9C6E-C8950D8813B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE2695E-8D94-4D75-9C6E-C8950D8813B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
