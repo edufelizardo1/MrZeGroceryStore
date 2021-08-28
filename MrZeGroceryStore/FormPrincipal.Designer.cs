@@ -29,14 +29,17 @@ namespace MrZeGroceryStore
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pnlBarraSuperior = new System.Windows.Forms.Panel();
+            this.BtnMenu = new System.Windows.Forms.Button();
             this.btnMinimizar = new System.Windows.Forms.Button();
             this.btnNormal = new System.Windows.Forms.Button();
             this.btnMaximizar = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.pnlBarraLateral = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnSairSistema = new System.Windows.Forms.Button();
-            this.btnCadastroUsuario = new System.Windows.Forms.Button();
+            this.btnUsuario = new System.Windows.Forms.Button();
             this.btnBalancoFinaceiro = new System.Windows.Forms.Button();
             this.btnCadastroCliente = new System.Windows.Forms.Button();
             this.btnCadastrosProdutos = new System.Windows.Forms.Button();
@@ -48,14 +51,19 @@ namespace MrZeGroceryStore
             this.lblMercearia = new System.Windows.Forms.Label();
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.pnlContainer = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tmContraeMenu = new System.Windows.Forms.Timer(this.components);
+            this.temExpandeMenu = new System.Windows.Forms.Timer(this.components);
             this.pnlBarraSuperior.SuspendLayout();
             this.pnlBarraLateral.SuspendLayout();
             this.pnlBLImageLogo.SuspendLayout();
+            this.pnlContainer.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBarraSuperior
             // 
             this.pnlBarraSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.pnlBarraSuperior.Controls.Add(this.BtnMenu);
             this.pnlBarraSuperior.Controls.Add(this.btnMinimizar);
             this.pnlBarraSuperior.Controls.Add(this.btnNormal);
             this.pnlBarraSuperior.Controls.Add(this.btnMaximizar);
@@ -65,6 +73,19 @@ namespace MrZeGroceryStore
             this.pnlBarraSuperior.Name = "pnlBarraSuperior";
             this.pnlBarraSuperior.Size = new System.Drawing.Size(1384, 25);
             this.pnlBarraSuperior.TabIndex = 0;
+            // 
+            // BtnMenu
+            // 
+            this.BtnMenu.BackColor = System.Drawing.Color.Transparent;
+            this.BtnMenu.BackgroundImage = global::MrZeGroceryStore.Properties.Resources.icons8_menu_32__1_;
+            this.BtnMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMenu.Location = new System.Drawing.Point(3, 1);
+            this.BtnMenu.Name = "BtnMenu";
+            this.BtnMenu.Size = new System.Drawing.Size(23, 23);
+            this.BtnMenu.TabIndex = 6;
+            this.BtnMenu.UseVisualStyleBackColor = false;
+            this.BtnMenu.Click += new System.EventHandler(this.BtnMenu_Click);
             // 
             // btnMinimizar
             // 
@@ -129,8 +150,9 @@ namespace MrZeGroceryStore
             // pnlBarraLateral
             // 
             this.pnlBarraLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.pnlBarraLateral.Controls.Add(this.button1);
             this.pnlBarraLateral.Controls.Add(this.btnSairSistema);
-            this.pnlBarraLateral.Controls.Add(this.btnCadastroUsuario);
+            this.pnlBarraLateral.Controls.Add(this.btnUsuario);
             this.pnlBarraLateral.Controls.Add(this.btnBalancoFinaceiro);
             this.pnlBarraLateral.Controls.Add(this.btnCadastroCliente);
             this.pnlBarraLateral.Controls.Add(this.btnCadastrosProdutos);
@@ -143,6 +165,16 @@ namespace MrZeGroceryStore
             this.pnlBarraLateral.Name = "pnlBarraLateral";
             this.pnlBarraLateral.Size = new System.Drawing.Size(250, 736);
             this.pnlBarraLateral.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(52, 616);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(152, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Voltar para o Login";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnSairSistema
             // 
@@ -161,23 +193,23 @@ namespace MrZeGroceryStore
             this.btnSairSistema.Text = "Sair";
             this.btnSairSistema.UseVisualStyleBackColor = true;
             // 
-            // btnCadastroUsuario
+            // btnUsuario
             // 
-            this.btnCadastroUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCadastroUsuario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCadastroUsuario.FlatAppearance.BorderSize = 0;
-            this.btnCadastroUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastroUsuario.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCadastroUsuario.ForeColor = System.Drawing.Color.DarkGray;
-            this.btnCadastroUsuario.Image = global::MrZeGroceryStore.Properties.Resources.icons8_add_user_male_32__1_;
-            this.btnCadastroUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadastroUsuario.Location = new System.Drawing.Point(0, 504);
-            this.btnCadastroUsuario.Name = "btnCadastroUsuario";
-            this.btnCadastroUsuario.Size = new System.Drawing.Size(250, 69);
-            this.btnCadastroUsuario.TabIndex = 7;
-            this.btnCadastroUsuario.Text = "Cadastro de Usuários";
-            this.btnCadastroUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCadastroUsuario.UseVisualStyleBackColor = true;
+            this.btnUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnUsuario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnUsuario.FlatAppearance.BorderSize = 0;
+            this.btnUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsuario.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnUsuario.ForeColor = System.Drawing.Color.DarkGray;
+            this.btnUsuario.Image = global::MrZeGroceryStore.Properties.Resources.icons8_add_user_male_32__1_;
+            this.btnUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUsuario.Location = new System.Drawing.Point(0, 504);
+            this.btnUsuario.Name = "btnUsuario";
+            this.btnUsuario.Size = new System.Drawing.Size(250, 69);
+            this.btnUsuario.TabIndex = 7;
+            this.btnUsuario.Text = "Usuários";
+            this.btnUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnUsuario.UseVisualStyleBackColor = true;
             // 
             // btnBalancoFinaceiro
             // 
@@ -247,7 +279,7 @@ namespace MrZeGroceryStore
             this.btnListaCredito.Name = "btnListaCredito";
             this.btnListaCredito.Size = new System.Drawing.Size(250, 69);
             this.btnListaCredito.TabIndex = 3;
-            this.btnListaCredito.Text = "Cadastro";
+            this.btnListaCredito.Text = "Dividas Creditadas";
             this.btnListaCredito.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnListaCredito.UseVisualStyleBackColor = true;
             // 
@@ -268,6 +300,7 @@ namespace MrZeGroceryStore
             this.btnRegistroVendas.Text = "Registrar Vendas";
             this.btnRegistroVendas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRegistroVendas.UseVisualStyleBackColor = true;
+            this.btnRegistroVendas.Click += new System.EventHandler(this.btnRegistroVendas_Click);
             // 
             // pnlSeparadot
             // 
@@ -279,7 +312,7 @@ namespace MrZeGroceryStore
             // 
             // pnlBLImageLogo
             // 
-            this.pnlBLImageLogo.BackColor = System.Drawing.Color.Gray;
+            this.pnlBLImageLogo.BackColor = System.Drawing.Color.Gold;
             this.pnlBLImageLogo.Controls.Add(this.lblSeuZe);
             this.pnlBLImageLogo.Controls.Add(this.lblMercearia);
             this.pnlBLImageLogo.Controls.Add(this.pnlLogo);
@@ -295,9 +328,10 @@ namespace MrZeGroceryStore
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSeuZe.AutoSize = true;
             this.lblSeuZe.BackColor = System.Drawing.Color.Transparent;
+            this.lblSeuZe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblSeuZe.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSeuZe.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblSeuZe.Location = new System.Drawing.Point(129, 63);
+            this.lblSeuZe.ForeColor = System.Drawing.Color.Black;
+            this.lblSeuZe.Location = new System.Drawing.Point(129, 60);
             this.lblSeuZe.Name = "lblSeuZe";
             this.lblSeuZe.Size = new System.Drawing.Size(114, 33);
             this.lblSeuZe.TabIndex = 5;
@@ -321,7 +355,7 @@ namespace MrZeGroceryStore
             // 
             // pnlLogo
             // 
-            this.pnlLogo.BackgroundImage = global::MrZeGroceryStore.Properties.Resources.mercado_;
+            this.pnlLogo.BackgroundImage = global::MrZeGroceryStore.Properties.Resources.mercado;
             this.pnlLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlLogo.Location = new System.Drawing.Point(0, 0);
@@ -331,11 +365,30 @@ namespace MrZeGroceryStore
             // 
             // pnlContainer
             // 
+            this.pnlContainer.Controls.Add(this.textBox1);
             this.pnlContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContainer.Location = new System.Drawing.Point(250, 25);
             this.pnlContainer.Name = "pnlContainer";
             this.pnlContainer.Size = new System.Drawing.Size(1134, 736);
             this.pnlContainer.TabIndex = 2;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(147, 131);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Texto\r\ncondição\r\nteste\r\n";
+            // 
+            // tmContraeMenu
+            // 
+            this.tmContraeMenu.Interval = 5;
+            this.tmContraeMenu.Tick += new System.EventHandler(this.tmContraeMenu_Tick);
+            // 
+            // temExpandeMenu
+            // 
+            this.temExpandeMenu.Interval = 5;
+            this.temExpandeMenu.Tick += new System.EventHandler(this.temExpandeMenu_Tick);
             // 
             // FormPrincipal
             // 
@@ -354,6 +407,8 @@ namespace MrZeGroceryStore
             this.pnlBarraLateral.ResumeLayout(false);
             this.pnlBLImageLogo.ResumeLayout(false);
             this.pnlBLImageLogo.PerformLayout();
+            this.pnlContainer.ResumeLayout(false);
+            this.pnlContainer.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -363,14 +418,13 @@ namespace MrZeGroceryStore
         private System.Windows.Forms.Panel pnlBarraSuperior;
         private System.Windows.Forms.Panel pnlBarraLateral;
         private System.Windows.Forms.Panel pnlBLImageLogo;
-        private System.Windows.Forms.Panel pnlLogo;
         private System.Windows.Forms.Button btnRegistroVendas;
         private System.Windows.Forms.Panel pnlSeparadot;
         private System.Windows.Forms.Button btnCadastroCliente;
         private System.Windows.Forms.Button btnCadastrosProdutos;
         private System.Windows.Forms.Button btnListaCredito;
         private System.Windows.Forms.Button btnSairSistema;
-        private System.Windows.Forms.Button btnCadastroUsuario;
+        private System.Windows.Forms.Button btnUsuario;
         private System.Windows.Forms.Button btnBalancoFinaceiro;
         private System.Windows.Forms.Panel pnlContainer;
         private System.Windows.Forms.Button btnMinimizar;
@@ -379,5 +433,11 @@ namespace MrZeGroceryStore
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label lblMercearia;
         private System.Windows.Forms.Label lblSeuZe;
+        private System.Windows.Forms.Button BtnMenu;
+        private System.Windows.Forms.Timer tmContraeMenu;
+        private System.Windows.Forms.Timer temExpandeMenu;
+        private System.Windows.Forms.Panel pnlLogo;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

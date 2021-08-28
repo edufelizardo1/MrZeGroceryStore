@@ -16,3 +16,4 @@ C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGrocerySt
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.genruntimeconfig.cache
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.Properties.Resources.resources
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormPrincipal.resources
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormsAplication.FormRegistrarVenda.resources

@@ -43,12 +43,13 @@ namespace MrZeGroceryStore
             this.pnlLInha1 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.linlblRecuperarSenha = new System.Windows.Forms.LinkLabel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.pnlBarraDeControleSuperior.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBarraDeControleSuperior
             // 
-            this.pnlBarraDeControleSuperior.BackColor = System.Drawing.Color.Gray;
+            this.pnlBarraDeControleSuperior.BackColor = System.Drawing.Color.Gold;
             this.pnlBarraDeControleSuperior.Controls.Add(this.pnlLogotipo);
             this.pnlBarraDeControleSuperior.Controls.Add(this.lblMercearia);
             this.pnlBarraDeControleSuperior.Controls.Add(this.lblSeuZe);
@@ -91,7 +92,7 @@ namespace MrZeGroceryStore
             this.lblSeuZe.AutoSize = true;
             this.lblSeuZe.BackColor = System.Drawing.Color.Transparent;
             this.lblSeuZe.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSeuZe.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblSeuZe.ForeColor = System.Drawing.Color.Black;
             this.lblSeuZe.Location = new System.Drawing.Point(37, 24);
             this.lblSeuZe.Name = "lblSeuZe";
             this.lblSeuZe.Size = new System.Drawing.Size(142, 43);
@@ -106,26 +107,26 @@ namespace MrZeGroceryStore
             this.lblLogin.AutoSize = true;
             this.lblLogin.BackColor = System.Drawing.Color.Transparent;
             this.lblLogin.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblLogin.ForeColor = System.Drawing.Color.Gray;
-            this.lblLogin.Location = new System.Drawing.Point(379, 0);
+            this.lblLogin.ForeColor = System.Drawing.Color.Snow;
+            this.lblLogin.Location = new System.Drawing.Point(308, 0);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(87, 37);
+            this.lblLogin.Size = new System.Drawing.Size(251, 37);
             this.lblLogin.TabIndex = 1;
-            this.lblLogin.Text = "LOGIN";
+            this.lblLogin.Text = "ACESSO AO SISTEMA";
             this.lblLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.Firebrick;
+            this.btnLogin.BackColor = System.Drawing.Color.Gold;
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLogin.ForeColor = System.Drawing.Color.Moccasin;
+            this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.btnLogin.Location = new System.Drawing.Point(249, 257);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(369, 34);
             this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Autenticar";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -134,7 +135,7 @@ namespace MrZeGroceryStore
             this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtUsuario.ForeColor = System.Drawing.Color.Firebrick;
+            this.txtUsuario.ForeColor = System.Drawing.Color.Snow;
             this.txtUsuario.Location = new System.Drawing.Point(251, 88);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(367, 20);
@@ -148,7 +149,7 @@ namespace MrZeGroceryStore
             this.txtSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSenha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtSenha.ForeColor = System.Drawing.Color.Firebrick;
+            this.txtSenha.ForeColor = System.Drawing.Color.Snow;
             this.txtSenha.Location = new System.Drawing.Point(251, 150);
             this.txtSenha.MaxLength = 10;
             this.txtSenha.Name = "txtSenha";
@@ -207,7 +208,7 @@ namespace MrZeGroceryStore
             // 
             // pnlLInha1
             // 
-            this.pnlLInha1.BackColor = System.Drawing.Color.Silver;
+            this.pnlLInha1.BackColor = System.Drawing.Color.Gold;
             this.pnlLInha1.Location = new System.Drawing.Point(251, 114);
             this.pnlLInha1.Name = "pnlLInha1";
             this.pnlLInha1.Size = new System.Drawing.Size(367, 2);
@@ -215,7 +216,7 @@ namespace MrZeGroceryStore
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
+            this.panel1.BackColor = System.Drawing.Color.Gold;
             this.panel1.Location = new System.Drawing.Point(253, 176);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(367, 2);
@@ -224,16 +225,25 @@ namespace MrZeGroceryStore
             // linlblRecuperarSenha
             // 
             this.linlblRecuperarSenha.AutoSize = true;
-            this.linlblRecuperarSenha.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linlblRecuperarSenha.LinkColor = System.Drawing.Color.Gray;
-            this.linlblRecuperarSenha.Location = new System.Drawing.Point(381, 297);
+            this.linlblRecuperarSenha.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.linlblRecuperarSenha.LinkColor = System.Drawing.Color.Snow;
+            this.linlblRecuperarSenha.Location = new System.Drawing.Point(358, 297);
             this.linlblRecuperarSenha.Name = "linlblRecuperarSenha";
-            this.linlblRecuperarSenha.Size = new System.Drawing.Size(121, 17);
+            this.linlblRecuperarSenha.Size = new System.Drawing.Size(150, 20);
             this.linlblRecuperarSenha.TabIndex = 12;
             this.linlblRecuperarSenha.TabStop = true;
             this.linlblRecuperarSenha.Text = "Recuperar a Senha";
             this.linlblRecuperarSenha.VisitedLinkColor = System.Drawing.Color.Firebrick;
             this.linlblRecuperarSenha.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linlblRecuperarSenha_LinkClicked);
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = global::MrZeGroceryStore.Properties.Resources.icons8_lock_32;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Location = new System.Drawing.Point(580, 133);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(42, 37);
+            this.panel2.TabIndex = 13;
             // 
             // Login
             // 
@@ -241,6 +251,7 @@ namespace MrZeGroceryStore
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(647, 330);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.linlblRecuperarSenha);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlLInha1);
@@ -254,7 +265,6 @@ namespace MrZeGroceryStore
             this.Controls.Add(this.pnlBarraDeControleSuperior);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
-            this.Opacity = 0.85D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Login_Load);
@@ -282,6 +292,7 @@ namespace MrZeGroceryStore
         private System.Windows.Forms.Panel pnlLInha1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.LinkLabel linlblRecuperarSenha;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
