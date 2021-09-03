@@ -52,7 +52,9 @@ namespace MrZeGroceryStore
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            FormPrincipal formPrincipal = new FormPrincipal();
+            formPrincipal.Show();
+            this.Hide();
         }
 
         private void linlblRecuperarSenha_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
