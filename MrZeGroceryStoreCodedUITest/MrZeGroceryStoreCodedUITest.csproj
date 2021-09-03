@@ -57,6 +57,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UIMap.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\Login.feature" />
+    <None Include="Features\RegistrarVenda.feature" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
