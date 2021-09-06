@@ -58,7 +58,11 @@
     <Compile Include="UIMap.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\CadastroDeClientes.feature" />
+    <None Include="Features\CadastroDeProduto.feature" />
+    <None Include="Features\CadastroDeUsuarios.feature" />
     <None Include="Features\Login.feature" />
+    <None Include="Features\Logout.feature" />
     <None Include="Features\RegistrarVenda.feature" />
   </ItemGroup>
   <Choose>
