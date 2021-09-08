@@ -1,4 +1,9 @@
-﻿Feature: Logout
+﻿# language: pt-br
+# encoding; utf-8
+
+
+
+Feature: Logout
 	Simple calculator for adding two numbers
 
 @mytag

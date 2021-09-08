@@ -1,4 +1,8 @@
-﻿Feature: CadastroDeClientes
+﻿# language: pt-br
+# encoding; utf-8
+
+
+Feature: CadastroDeClientes
 	Simple calculator for adding two numbers
 
 @mytag
