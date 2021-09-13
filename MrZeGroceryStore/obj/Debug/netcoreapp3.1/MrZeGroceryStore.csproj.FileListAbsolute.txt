@@ -5,7 +5,14 @@ C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGrocerySt
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\bin\Debug\netcoreapp3.1\MrZeGroceryStore.dll
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\bin\Debug\netcoreapp3.1\MrZeGroceryStore.pdb
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.csproj.AssemblyReference.cache
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\CustomControlsEdu.EFCControls.EFCTextBox.resources
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\CustomControlsEdu.EFCControls.EFCTextBoxCustomer.resources
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormPrincipal.resources
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormsAplication.FormCadastroUsuario.resources
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormsAplication.FormRegistrarVenda.resources
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.Login.resources
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.MrControls.MrTextBox.resources
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.Properties.Resources.resources
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.csproj.GenerateResource.cache
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.AssemblyInfoInputs.cache
@@ -14,10 +21,3 @@ C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGrocerySt
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.dll
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.pdb
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.genruntimeconfig.cache
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.Properties.Resources.resources
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormPrincipal.resources
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormsAplication.FormRegistrarVenda.resources
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.MrControls.MrTextBox.resources
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\CustomControlsEdu.EFCControls.EFCTextBox.resources
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\CustomControlsEdu.EFCControls.EFCTextBoxCustomer.resources
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormsAplication.FormCadastroUsuario.resources
