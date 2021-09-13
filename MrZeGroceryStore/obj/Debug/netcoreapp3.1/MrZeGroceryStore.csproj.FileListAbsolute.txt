@@ -4,7 +4,6 @@ C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGrocerySt
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\bin\Debug\netcoreapp3.1\MrZeGroceryStore.runtimeconfig.dev.json
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\bin\Debug\netcoreapp3.1\MrZeGroceryStore.dll
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\bin\Debug\netcoreapp3.1\MrZeGroceryStore.pdb
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.csproj.AssemblyReference.cache
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\CustomControlsEdu.EFCControls.EFCTextBox.resources
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\CustomControlsEdu.EFCControls.EFCTextBoxCustomer.resources
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormPrincipal.resources
