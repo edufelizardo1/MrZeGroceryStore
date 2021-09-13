@@ -1,6 +1,0 @@
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStoreCodedUITest\bin\Debug\MrZeGroceryStoreCodedUITest.dll
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStoreCodedUITest\bin\Debug\MrZeGroceryStoreCodedUITest.pdb
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStoreCodedUITest\obj\Debug\MrZeGroceryStoreCodedUITest.csproj.CoreCompileInputs.cache
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStoreCodedUITest\obj\Debug\MrZeGroceryStoreCodedUITest.dll
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStoreCodedUITest\obj\Debug\MrZeGroceryStoreCodedUITest.pdb
-C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStoreCodedUITest\obj\Debug\MrZeGroceryStoreCodedUITest.csproj.AssemblyReference.cache
