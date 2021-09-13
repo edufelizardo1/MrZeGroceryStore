@@ -96,6 +96,21 @@ namespace MrZeGroceryStore
             AbrirFormulario<FormsAplication.FormRegistrarVenda>();
         }
 
+        private void btnCadastrosProdutos_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormsAplication.FormRegistrarVenda>();
+        }
+
+        private void btnCadastroCliente_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormsAplication.FormRegistrarVenda>();
+        }
+
+        private void btnUsuario_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormsAplication.FormCadastroUsuario>();
+        }
+
         //  Animação do menu
 
         private void BtnMenu_Click(object sender, EventArgs e)
@@ -107,8 +122,6 @@ namespace MrZeGroceryStore
             {
                 this.tmContraeMenu.Start();
                 btnRegistroVendas.Text = "";
-                btnListaCredito.Text = "";
-                btnBalancoFinaceiro.Text = "";
                 btnCadastroCliente.Text = "";
                 btnCadastrosProdutos.Text = "";
                 btnUsuario.Text = "";
@@ -124,8 +137,6 @@ namespace MrZeGroceryStore
             {
                 this.temExpandeMenu.Start();
                 btnRegistroVendas.Text = "Registrar Vendas";
-                btnListaCredito.Text = "Dividas Creditadas";
-                btnBalancoFinaceiro.Text = "Balanço Financeiro";
                 btnCadastroCliente.Text = "Cadastro de Clientes";
                 btnCadastrosProdutos.Text = "Cadastro de Produto";
                 btnUsuario.Text = "Usuários";

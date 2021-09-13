@@ -1,7 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="EFCControls\EFCButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="EFCControls\EFCCircularPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="EFCControls\EFCComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EFCControls\EFCProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="EFCControls\EFCRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="EFCControls\EFCTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EFCControls\EFCTextBoxCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EFCControls\EfCTogleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsAplication\FormCadastroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormsAplication\FormRegistrarVenda.cs">
@@ -9,6 +36,9 @@
     </Compile>
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MrControls\MrTextBox.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

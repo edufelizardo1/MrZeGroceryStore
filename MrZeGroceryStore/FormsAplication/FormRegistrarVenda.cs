@@ -17,7 +17,7 @@ namespace MrZeGroceryStore.FormsAplication
 
         private void FormRegistrarVenda_Load(object sender, EventArgs e)
         {
-
+           
         }
     }
 }
