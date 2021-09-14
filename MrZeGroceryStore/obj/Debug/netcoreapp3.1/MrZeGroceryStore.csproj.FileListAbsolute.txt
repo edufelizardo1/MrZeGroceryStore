@@ -20,3 +20,5 @@ C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGrocerySt
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.dll
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.pdb
 C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.genruntimeconfig.cache
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormsAplication.FormCadastroDeClientes.resources
+C:\Users\edufe_54usi3q\OneDrive\Documentos\GitHub\MrZeGroceryStore\MrZeGroceryStore\obj\Debug\netcoreapp3.1\MrZeGroceryStore.FormsAplication.FormCadastroDeProduto.resources
