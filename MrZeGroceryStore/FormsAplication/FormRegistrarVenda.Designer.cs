@@ -49,6 +49,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.mrTextBox3 = new MrZeGroceryStore.MrControls.MrTextBox();
             this.mrTextBox4 = new MrZeGroceryStore.MrControls.MrTextBox();
             this.mrTextBox2 = new MrZeGroceryStore.MrControls.MrTextBox();
@@ -60,6 +61,8 @@ namespace MrZeGroceryStore.FormsAplication
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Código = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -279,6 +282,7 @@ namespace MrZeGroceryStore.FormsAplication
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.panel3.Controls.Add(this.textBox6);
             this.panel3.Controls.Add(this.mrTextBox3);
             this.panel3.Controls.Add(this.mrTextBox4);
             this.panel3.Controls.Add(this.mrTextBox2);
@@ -290,6 +294,19 @@ namespace MrZeGroceryStore.FormsAplication
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1134, 100);
             this.panel3.TabIndex = 2;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBox6.Location = new System.Drawing.Point(919, 35);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
+            this.textBox6.Size = new System.Drawing.Size(54, 50);
+            this.textBox6.TabIndex = 7;
+            this.textBox6.Text = "R$";
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // mrTextBox3
             // 
@@ -316,6 +333,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox4.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox4.BorderSize = 3;
+            this.mrTextBox4.Enabled = false;
             this.mrTextBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox4.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox4.Location = new System.Drawing.Point(397, 4);
@@ -335,6 +353,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox2.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox2.BorderSize = 3;
+            this.mrTextBox2.Enabled = false;
             this.mrTextBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox2.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox2.Location = new System.Drawing.Point(13, 53);
@@ -354,6 +373,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox1.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox1.BorderSize = 3;
+            this.mrTextBox1.Enabled = false;
             this.mrTextBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox1.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox1.Location = new System.Drawing.Point(13, 4);
@@ -385,6 +405,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox1.Location = new System.Drawing.Point(917, 31);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(196, 57);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "R$       0,00";
@@ -408,6 +429,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.textBox3.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox3.Location = new System.Drawing.Point(296, 390);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(196, 47);
             this.textBox3.TabIndex = 4;
             this.textBox3.Text = "R$       0,00";
@@ -431,14 +453,17 @@ namespace MrZeGroceryStore.FormsAplication
             this.textBox2.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox2.Location = new System.Drawing.Point(296, 441);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(196, 47);
             this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "R$       0,00";
+            this.textBox2.Text = "       0,00";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.panel4.Controls.Add(this.textBox5);
+            this.panel4.Controls.Add(this.textBox4);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.dataGridView1);
             this.panel4.Controls.Add(this.label3);
@@ -449,6 +474,32 @@ namespace MrZeGroceryStore.FormsAplication
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(513, 505);
             this.panel4.TabIndex = 3;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBox5.Location = new System.Drawing.Point(300, 444);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(63, 40);
+            this.textBox5.TabIndex = 8;
+            this.textBox5.Text = "R$ ";
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBox4.Location = new System.Drawing.Point(298, 394);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(67, 40);
+            this.textBox4.TabIndex = 7;
+            this.textBox4.Text = "R$ ";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // dataGridView1
             // 
@@ -586,6 +637,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox17.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox17.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox17.BorderSize = 3;
+            this.mrTextBox17.Enabled = false;
             this.mrTextBox17.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox17.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox17.Location = new System.Drawing.Point(326, 330);
@@ -607,6 +659,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox16.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox16.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox16.BorderSize = 3;
+            this.mrTextBox16.Enabled = false;
             this.mrTextBox16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox16.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox16.Location = new System.Drawing.Point(245, 330);
@@ -628,6 +681,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox14.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox14.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox14.BorderSize = 3;
+            this.mrTextBox14.Enabled = false;
             this.mrTextBox14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox14.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox14.Location = new System.Drawing.Point(19, 330);
@@ -648,6 +702,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox13.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox13.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox13.BorderSize = 3;
+            this.mrTextBox13.Enabled = false;
             this.mrTextBox13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox13.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox13.Location = new System.Drawing.Point(436, 277);
@@ -656,6 +711,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox13.Name = "mrTextBox13";
             this.mrTextBox13.Padding = new System.Windows.Forms.Padding(7);
             this.mrTextBox13.PasswordChar = false;
+            this.mrTextBox13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mrTextBox13.Size = new System.Drawing.Size(172, 34);
             this.mrTextBox13.TabIndex = 20;
             this.mrTextBox13.Texts = "Kg";
@@ -669,6 +725,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox12.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox12.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox12.BorderSize = 3;
+            this.mrTextBox12.Enabled = false;
             this.mrTextBox12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox12.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox12.Location = new System.Drawing.Point(382, 277);
@@ -690,6 +747,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox11.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox11.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox11.BorderSize = 3;
+            this.mrTextBox11.Enabled = false;
             this.mrTextBox11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox11.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox11.Location = new System.Drawing.Point(19, 277);
@@ -711,6 +769,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox10.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox10.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox10.BorderSize = 3;
+            this.mrTextBox10.Enabled = false;
             this.mrTextBox10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox10.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox10.Location = new System.Drawing.Point(19, 226);
@@ -798,6 +857,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox9.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox9.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox9.BorderSize = 3;
+            this.mrTextBox9.Enabled = false;
             this.mrTextBox9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox9.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox9.Location = new System.Drawing.Point(460, 330);
@@ -806,6 +866,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox9.Name = "mrTextBox9";
             this.mrTextBox9.Padding = new System.Windows.Forms.Padding(7);
             this.mrTextBox9.PasswordChar = false;
+            this.mrTextBox9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mrTextBox9.Size = new System.Drawing.Size(148, 34);
             this.mrTextBox9.TabIndex = 11;
             this.mrTextBox9.Texts = "9,00";
@@ -816,7 +877,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mrTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox8.BorderColor = System.Drawing.Color.Silver;
-            this.mrTextBox8.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.mrTextBox8.BorderFocusColor = System.Drawing.Color.LightGray;
             this.mrTextBox8.BorderSize = 3;
             this.mrTextBox8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox8.ForeColor = System.Drawing.Color.Silver;
@@ -826,6 +887,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox8.Name = "mrTextBox8";
             this.mrTextBox8.Padding = new System.Windows.Forms.Padding(7);
             this.mrTextBox8.PasswordChar = false;
+            this.mrTextBox8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mrTextBox8.Size = new System.Drawing.Size(107, 34);
             this.mrTextBox8.TabIndex = 10;
             this.mrTextBox8.Texts = "3";
@@ -838,6 +900,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox7.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox7.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox7.BorderSize = 3;
+            this.mrTextBox7.Enabled = false;
             this.mrTextBox7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox7.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox7.Location = new System.Drawing.Point(245, 277);
@@ -846,6 +909,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox7.Name = "mrTextBox7";
             this.mrTextBox7.Padding = new System.Windows.Forms.Padding(7);
             this.mrTextBox7.PasswordChar = false;
+            this.mrTextBox7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mrTextBox7.Size = new System.Drawing.Size(139, 34);
             this.mrTextBox7.TabIndex = 9;
             this.mrTextBox7.Texts = "3,00";
@@ -858,6 +922,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox6.BorderColor = System.Drawing.Color.Silver;
             this.mrTextBox6.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.mrTextBox6.BorderSize = 3;
+            this.mrTextBox6.Enabled = false;
             this.mrTextBox6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.mrTextBox6.ForeColor = System.Drawing.Color.Silver;
             this.mrTextBox6.Location = new System.Drawing.Point(188, 226);
@@ -866,6 +931,7 @@ namespace MrZeGroceryStore.FormsAplication
             this.mrTextBox6.Name = "mrTextBox6";
             this.mrTextBox6.Padding = new System.Windows.Forms.Padding(7);
             this.mrTextBox6.PasswordChar = false;
+            this.mrTextBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mrTextBox6.Size = new System.Drawing.Size(420, 34);
             this.mrTextBox6.TabIndex = 8;
             this.mrTextBox6.Texts = "Produto";
@@ -1005,5 +1071,8 @@ namespace MrZeGroceryStore.FormsAplication
         private MrControls.MrTextBox mrTextBox12;
         private MrControls.MrTextBox mrTextBox11;
         private MrControls.MrTextBox mrTextBox10;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
