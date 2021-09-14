@@ -15,6 +15,10 @@ namespace MrZeGroceryStore.FormsAplication
             InitializeComponent();
         }
 
+        private void FormCadastroUsuario_Load(object sender, EventArgs e)
+        {
+            
+        }
         private void mrTextBox8__TextChanged(object sender, EventArgs e)
         {
 
@@ -26,6 +30,11 @@ namespace MrZeGroceryStore.FormsAplication
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mrTextBox11__TextChanged(object sender, EventArgs e)
         {
 
         }
