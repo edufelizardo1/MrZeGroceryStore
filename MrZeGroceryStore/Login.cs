@@ -22,6 +22,7 @@ namespace MrZeGroceryStore
         private void Login_Load(object sender, EventArgs e)
         {
             lblStatusMenssage.Visible = false;
+            PnlCadeadoFechado.Visible = true;
         }
 
         //  Arrastar o formulário
@@ -49,13 +50,13 @@ namespace MrZeGroceryStore
 
 
         //  Botão de Login
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             FormPrincipal formPrincipal = new FormPrincipal();
             formPrincipal.Show();
             this.Hide();
         }
+
 
         private void linlblRecuperarSenha_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -66,18 +67,18 @@ namespace MrZeGroceryStore
 
         private void txtUsuario_Enter(object sender, EventArgs e)
         {
-            if(txtUsuario.Text == "USUÁRIO")
+            if(txtUsuario.PlaceholderText == "USUÁRIO")
             {
-                txtUsuario.Text = "";
+                txtUsuario.PlaceholderText = "";
                 txtUsuario.ForeColor = Color.LightGray;
             }
         }
 
         private void txtUsuario_Leave(object sender, EventArgs e)
         {
-            if (txtUsuario.Text == "")
+            if (txtUsuario.PlaceholderText == "")
             {
-                txtUsuario.Text = "USUÁRIO";
+                txtUsuario.PlaceholderText = "USUÁRIO";
                 txtUsuario.ForeColor = Color.Firebrick;
             }
         }
@@ -87,21 +88,21 @@ namespace MrZeGroceryStore
 
         private void txtSenha_Enter(object sender, EventArgs e)
         {
-            if (txtSenha.Text == "SENHA")
+            if (txtSenha.PlaceholderText == "SENHA")
             {
-                txtSenha.Text = "";
+                txtSenha.PlaceholderText = "";
                 txtSenha.ForeColor = Color.LightGray;
-                txtSenha.UseSystemPasswordChar = true;
+                txtSenha.PasswordChar = true;
             }
         }
 
         private void txtSenha_Leave(object sender, EventArgs e)
         {
-            if (txtSenha.Text == "")
+            if (txtSenha.PlaceholderText == "")
             {
-                txtSenha.Text = "SENHA";
+                txtSenha.PlaceholderText = "SENHA";
                 txtSenha.ForeColor = Color.Firebrick;
-                txtSenha.UseSystemPasswordChar = false;
+                txtSenha.PasswordChar = false;
             }
         }
 
