@@ -98,12 +98,12 @@ namespace MrZeGroceryStore
 
         private void btnCadastrosProdutos_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<FormsAplication.FormRegistrarVenda>();
+            AbrirFormulario<FormsAplication.FormCadastroDeProduto>();
         }
 
         private void btnCadastroCliente_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<FormsAplication.FormRegistrarVenda>();
+            AbrirFormulario<FormsAplication.FormCadastroDeClientes>();
         }
 
         private void btnUsuario_Click(object sender, EventArgs e)
